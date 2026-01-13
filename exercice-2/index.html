@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 1 - Formulaire</title>
+</head>
+<body>
+    <h1>Formulaire de connexion</h1>
+    
+    <form id="monFormulaire" action="https://httpbin.org/post" method="POST"></form>
+        <div>
+            <label for="username">Nom d'utilisateur :</label>
+            <input type="text" id="username" name="username">
+        </div>
+        
+        <div>
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" name="password">
+        </div>
+        
+        <button type="submit">Se connecter</button>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
