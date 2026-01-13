@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 5 - Prévisualisation</title>
+    <style>
+        #preview {
+            width: 300px;
+            height: 150px;
+            border: 2px solid #ccc;
+            padding: 20px;
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prévisualisation en temps réel</h1>
+    
+    <form>
+        <div>
+            <label for="textInput">Texte :</label>
+            <input type="text" id="textInput" placeholder="Tapez du texte...">
+        </div>
+        
+        <div>
+            <label for="colorPicker">Couleur de fond :</label>
+            <input type="color" id="colorPicker" value="#ffffff">
+        </div>
+    </form>
+    
+    <!-- Div de prévisualisation (vide au départ) -->
+    <div id="preview"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
